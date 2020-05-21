@@ -213,8 +213,8 @@ f 4 4 4 4 4 1 4 4 f 4 4 d f 4 f
         fish.vx = Math.randomRange(-20, -70)
     }
     hard = info.score() / 5
-    if (hard > 20) {
-        hard = 20
+    if (hard > 40) {
+        hard = 40
     }
     if (Math.percentChance(hard)) {
         boob = sprites.create(img`
